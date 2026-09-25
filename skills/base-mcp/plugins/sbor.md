@@ -95,6 +95,7 @@ The server is remote, needs no key and no sign-in, and all six tools are read-on
 
 ## Notes
 
+- SBOR publishes market data, not financial advice. The decision stays with the user.
 - Rates are effective APY percentages. The fixing is published once a day; every tool states its age, and `compare_rate` refuses data more than 48 hours old.
 - `BTC-COLLATERAL-USDC` is a reference, not an SBOR index. It is published only when every Morpho market it covers was read. The collateral is custodial wrapped bitcoin.
 - `SBOR-USD` measures a dollar on Stacks, borrowed against any crypto collateral, not only bitcoin. It is not a benchmark for a Base loan.
